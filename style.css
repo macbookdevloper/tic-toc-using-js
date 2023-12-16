@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    background-color: #233142;
+    text-align: center;
+}
+.heading{
+    font-size: 30px;
+    color:white;
+    margin: 10px;
+    background-color: #f95959;
+    display: flex;
+    justify-content: center;
+    border-radius: 2rem;
+}
+
+
+.score-container{
+    display: flex;
+    justify-content: right;
+    padding: 0px 50px;
+}
+.score-borad{
+    background-color: #f95959;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100px;
+    width: 200px;
+    border-radius: 1rem;
+}
+.player{
+    font-size: 25px;
+    padding: 3px 0px;
+    color: white;
+}
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+   
+}
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 5px 5px lightblue;
+    font-size: 3.5rem;
+    color: white;
+    background-color: #455d7a;
+}
+.winner{
+    background-color: #e3e3e3;
+    color: #233142;
+    font-size: 5rem;
+}
+#reset-btn{
+   
+    height: 3rem;
+    width: 8.5rem;
+    border-radius: 2rem;
+    background-color: #f95959;
+    color: white;
+    border: none;
+    box-shadow: 2.5px 3px lightblue;
+}
